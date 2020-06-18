@@ -46,5 +46,27 @@ Detection: The attacker attacks the communication medium to create channel jam. 
 Prevention: After detecting the DDOS nodes, RSU sends request to CA to revoke the certificate and identity of the Sybille node. After getting response from CA, RSU stores the information of the Sybille node in RSU Cache to make verification easy next time. Finally, RSU informs the vehicle about the Sybille node and drops the messages
 
 Best Routing Protocol: the best reliable routing protocol is required for the transmission in the real-world scenario. To achieve that, we have implemented system which generates the real-world scenario by selecting the specified area from the OpenStreetMap Framework. where number of vehicles, Trucks, Traffic Signals and pedestrians were selected. Then, we analysed the generated scenario in Urban simulator called SUMO.
+------------------------------------------------------------------------
+MIT License
 
+Copyright (c) 2020 Naveen R
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------------------------------------
